@@ -6,7 +6,7 @@ import { Provider } from "./components/ui/provider";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <Provider forcedTheme="dark">
+    <Provider defaultTheme="dark">
       <App />
     </Provider>
   </React.StrictMode>
