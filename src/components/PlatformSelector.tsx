@@ -26,7 +26,7 @@ const PlatformSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
         <Menu.Positioner>
           <Menu.Content>
             {data.map((platform) => (
-              <MenuItem>
+              <Menu.Item>
                 <Link
                   key={platform.id}
                   variant="plain"
@@ -34,7 +34,7 @@ const PlatformSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
                 >
                   {platform.name}
                 </Link>
-              </MenuItem>
+              </Menu.Item>
             ))}
           </Menu.Content>
         </Menu.Positioner>
