@@ -6,6 +6,7 @@ const ColorModeSwitch = () => {
 
   return (
     <Switch.Root
+      whiteSpace="nowrap"
       defaultChecked
       onCheckedChange={toggleColorMode}
       colorPalette="green"
